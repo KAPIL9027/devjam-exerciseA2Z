@@ -105,7 +105,10 @@ width: 100vw;
 
 .card-heading{
   font-weight: 700;
-  
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  width: fit-content;
+  padding: 0.3rem;
   letter-spacing: 2px;
   cursor: pointer;
   
@@ -119,9 +122,13 @@ a{
 }
 
 #home-card-btn{
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 900;
   position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  width: fit-content;
+  padding: 0.5rem;
   bottom: 1rem;
   right: 2rem;
   transition: color 0.3s ease-in;
@@ -130,10 +137,12 @@ a{
 
 .card-heading:hover{
   color:white;
+  background-color: black;
 }
 
 #home-card-btn:hover{
   color: white;
+  background-color: black;
 }
 
 .card:hover{
@@ -158,4 +167,39 @@ width: 100vw;
 
 }
 /*Parts screen styling ends here*/
+
+
+/*Muscles screen styling starts here */
+#muscles{
+
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  height: 75vh;
+  width: 100vw;
+  
+  }
+  /*Muscles screen styling ends here*/
+
+
+  /*Muscles screen styling starts here */
+#equipments{
+
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  height: 75vh;
+  width: 100vw;
+  
+  }
+  /*Muscles screen styling ends here*/
+
 
