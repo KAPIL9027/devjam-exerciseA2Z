@@ -1,3 +1,37 @@
+exerciseA2Z - DevJam Hackathon Project
+
+This Project is based on the Healthcare Theme provided by DevJam. It is a exercise booklet application which provides access to thousands of exercises and tutorials based on the muscle target, body part and even equipment. This application is using ExerciseDB api to get the exercise related data. This application is a React.js application.
+
+## Tech Stack
+
+**Client:** React.js
+
+**Backend** ExerciseDB
+
+## Screenshots
+
+![App Screenshot](https://github.com/KAPIL9027/devjam-exerciseA2Z/assets/76560065/21c1598f-d01f-4ef4-96ab-b4121ee10827)
+
+![App Screenshot](https://github.com/KAPIL9027/devjam-exerciseA2Z/assets/76560065/cf80dafb-7de1-41a7-bfac-2c2ca1b4cf0e)
+
+![App Screenshot](https://github.com/KAPIL9027/devjam-exerciseA2Z/assets/76560065/e59d3dfb-f6e0-43e6-bd65-2103e73553a4)
+
+![App Screenshot](https://github.com/KAPIL9027/devjam-exerciseA2Z/assets/76560065/45c9fc71-9698-4df9-b60d-051e610a825d)
+
+![App Screenshot](https://github.com/KAPIL9027/devjam-exerciseA2Z/assets/76560065/d7da1778-a8cd-4497-8ce4-fbb1f59f0971)
+
+![App Screenshot](https://github.com/KAPIL9027/devjam-exerciseA2Z/assets/76560065/ac947bdc-60dd-4c38-9e38-31ce7137160c)
+
+![App Screenshot](https://github.com/KAPIL9027/devjam-exerciseA2Z/assets/76560065/1faafbbd-ff54-4a95-9dd9-682f3aa0232a)
+
+## Deployment
+
+https://exercise-a2z-devjam-devfolio.onrender.com/
+
+## Demo
+
+https://www.loom.com/share/4aa7d4cc1ed94b51bee326b96d628e28
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
