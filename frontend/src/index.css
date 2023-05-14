@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,900&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: montserrat,'sans-serif';
+}
+
+/*
+Header Component styling starts here
+*/
+.header-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 5rem;
+  border-bottom: 3px solid whitesmoke;
+}
+
+.logo{
+  font-size: 2rem;
+  font-weight: 900;
+  color: #5B88FD;
+}
+#a2z{
+  
+  color: #133489;
+}
+
+.header-down{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navs{
+max-width: 25rem;
+background-color: #f0f4ff;
+margin-top: 1rem;
+padding: 1rem;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border-radius: 0.5rem;
+
+}
+
+.nav-link{
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  color: #789df9;
+}
+
+.nav-link:hover{
+  background-color: #5D8AFC;
+  color: white;
+
+}
+
+/*Header Component styling ends here*/
+
+
+
+
+/*Home Screen styling starts here */
+
+
+
+#home-screen-heading{
+margin-top: 5rem;
+font-size: 3rem;
+font-weight: 900;
+}
+
+#home{
+padding: 2rem 4rem;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 2rem;
+height: 75vh;
+width: 100vw;
+}
+
+.card{
+  position: relative;
+  width: 25rem;
+  height: 18rem;
+  opacity: 0.9;
+  color: #5D8AFC;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  border: 1px solid lightgray;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: opacity 0.1s ease-in, transform 0.2s ease-in;
+}
+
+.card-heading{
+  font-weight: 700;
+  
+  letter-spacing: 2px;
+  cursor: pointer;
+  
+  transition: color 0.3s ease-in;
+  opacity: 1;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+#home-card-btn{
+  font-size: 3rem;
+  font-weight: 900;
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  transition: color 0.3s ease-in;
+  cursor: pointer;
+}
+
+.card-heading:hover{
+  color:white;
+}
+
+#home-card-btn:hover{
+  color: white;
+}
+
+.card:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}
+/*Home Screen styling ends here*/
+
+
+/*Parts screen styling starts here */
+#bodyparts{
+
+padding: 2rem 4rem;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 2rem;
+height: 75vh;
+width: 100vw;
+
+}
+/*Parts screen styling ends here*/
+
