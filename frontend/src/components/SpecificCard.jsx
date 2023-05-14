@@ -1,7 +1,8 @@
 import React from 'react'
 
+
 const SpecificCard = ({specific}) => {
-    
+   
   return (
     <div id="specific-card">
     <div className="tutorial">

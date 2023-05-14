@@ -6,7 +6,7 @@ const Equipment = () => {
     <main id="equipments">
       {
         equipments.map((equipment)=>{
-            return <Card key={equipment.title} title={equipment.title} url={equipment.url}/>
+            return <Card key={equipment.title} endpoint={`/${equipment.title}`} title={equipment.title} url={equipment.url}/>
         })
       }
     </main>

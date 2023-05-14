@@ -12,10 +12,10 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/body" element={<Parts/>}/>
-        <Route path="/muscles" element={<Muscles/>} />
-        <Route path="/equipments" element={<Equipment/>}/>
-        <Route path="/:id" element={<Specific/>}/>
+        <Route path="/bodyPart" element={<Parts/>}/>
+        <Route path="/target" element={<Muscles/>} />
+        <Route path="/equipment" element={<Equipment/>}/>
+        <Route path="/:menu/:specific" element={<Specific/>}/>
       </Routes>
       </BrowserRouter>
      

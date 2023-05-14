@@ -6,7 +6,7 @@ const Parts = () => {
     <main id="bodyparts">
       {
         body_parts.map((p) => {
-            return <Card key={p.part} title={p.part} url={p.url}/>
+            return <Card key={p.part} endpoint={`/${p.part}`} title={p.part} url={p.url}/>
         })
       }
     </main>

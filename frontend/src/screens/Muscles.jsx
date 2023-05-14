@@ -6,7 +6,7 @@ const Muscles = () => {
     <main id="muscles"> 
       {
         muscles.map((muscle)=>{
-            return <Card key={muscle.title} title={muscle.target} url={muscle.url}/>
+            return <Card key={muscle.target} endpoint={`/${muscle.target}`} title={muscle.target} url={muscle.url}/>
         })
       }
     </main>
