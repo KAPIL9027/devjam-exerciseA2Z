@@ -1,4 +1,4 @@
-export default backexercises = [
+const backexercises = [
     {
         bodyPart:"back",
         equipment:"cable",
@@ -25,3 +25,6 @@ export default backexercises = [
     }
 
 ]
+
+
+export default backexercises

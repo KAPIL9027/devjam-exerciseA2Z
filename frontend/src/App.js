@@ -4,6 +4,7 @@ import Home from "./screens/Home";
 import Parts from "./screens/Parts";
 import Muscles from "./screens/Muscles";
 import Equipment from "./screens/Equipment";
+import Specific from "./screens/Specific";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
         <Route path="/body" element={<Parts/>}/>
         <Route path="/muscles" element={<Muscles/>} />
         <Route path="/equipments" element={<Equipment/>}/>
+        <Route path="/:id" element={<Specific/>}/>
       </Routes>
       </BrowserRouter>
      
