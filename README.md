@@ -1,6 +1,6 @@
 exerciseA2Z - DevJam Hackathon Project
 
-This Project is based on the Healthcare Theme provided by DevJam. It is a exercise booklet application which provides access to thousands of exercises and tutorials based on the muscle target, body part and even equipment. This application is using ExerciseDB api to get the exercise related data. This application is a React.js application.
+This project is based on the healthcare theme provided by DevJam. It is an exercise booklet application that provides access to thousands of exercises and tutorials based on muscle target, body part, and even equipment. The application uses the ExerciseDB API to obtain exercise-related data and is built using React.js.
 
 ## Tech Stack
 
